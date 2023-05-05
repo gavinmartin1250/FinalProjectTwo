@@ -48,6 +48,7 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.invalid.setText('Invalid Inputs')
             self.plus_minus.setText('')
             self.total_score.setText('')
+            self.fairway_percentage.setText('')
        else:
            total_score = hole_one + hole_two + hole_three + hole_four + hole_five + hole_six + hole_seven + hole_eight + hole_nine + hole_ten + hole_eleven + hole_twelve + hole_thirteen + hole_fourteen + hole_fifteen + hole_sixteen + hole_seventeen + hole_eighteen
            self.total_score.setText(f'{total_score}')
